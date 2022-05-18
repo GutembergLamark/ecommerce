@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/database.js"></script>
+    <script defer src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>E-commerce</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho-titulo"><a href="#top">Weartake</a></h1>
+        <nav class="cabecalho-menu">
+            <ul class="cabecalho-lista">
+                <li class="cabecalho-lista-item todos">Todos</li>
+                <li class="cabecalho-lista-item acessorio">Acessórios</li>
+                <li class="cabecalho-lista-item calcados">Calçados</li>
+                <li class="cabecalho-lista-item camisetas">Camisetas</li>
+            </ul>
+            <button class="dark-mode mode">
+                <img class="img-button" src="./img/lua-crescente.png" alt="dar-mode" width="30px">
+            </button>
+        </nav>
+    </header>
+    <main class="principal">
+        <h2 class="sem-produtos hidden">Não há produtos nessa secão...</h2>
+
+        <div class="carrinho">
+            <section class="form">
+                <input class="input-text" type="text" placeholder="Digite aqui sua pesquisa">
+                <button class="pesquisar">Pesquisar</button>
+            </section>
+
+            <aside class="carrinho-compras">
+                <header class="cabecalho-carrinho">
+                    <h2>Carrinho de compras</h2>
+                </header>
+                <section class="interior-carrinho">
+                    <div class="vazio">
+                        <h3>Carrinho Vazio</h3>
+                        <p class="adicione-itens">Adicione itens</p>
+                    </div>
+                </section>
+                <footer class="total hidden">
+                    <div class="quantidade">
+                        <p>Quantidade</p>
+                        <p class="quantidade-itens"></p>
+                    </div>
+                    <div class="total">
+                        <p>Total</p>
+                        <p class="preco-compra"></p>
+                    </div>
+                </footer>
+            </aside>
+        </div>
+    </main>
+    <footer class="footer"><strong>&copy Copyright 2022</strong</footer> </body> </html>
