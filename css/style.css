@@ -82,6 +82,11 @@ strong {
     display: flex;
     justify-content: space-around;
     padding: 120px 70px;
+    gap: 15px;
+}
+
+.sem-produtos {
+    opacity: 0.4;
 }
 
 .principal-cards {
@@ -230,7 +235,6 @@ strong {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
     height: 230px;
     max-height: 230px;
     overflow-y: scroll;
@@ -238,7 +242,6 @@ strong {
 
 .vazio {
     padding: 60px;
-
 }
 
 ::-webkit-scrollbar {
@@ -260,6 +263,12 @@ strong {
 .adicione-itens {
     font-size: 14px;
     text-align: center;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .item {
@@ -376,3 +385,4 @@ strong {
 .dark-mode .total {
     background-color: #26292a;
 }
+
